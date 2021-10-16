@@ -3,10 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "description": "superatomic",
-  "author": "Samuel Fortunato",
-  "keywords": [
-    "gatsby"
-  ],
+  "author": "superatomic",
+  "keywords": [],
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
