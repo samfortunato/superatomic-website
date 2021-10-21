@@ -10,7 +10,8 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "deploy": "npm run build && gatsby-plugin-s3 deploy -y"
   },
   "dependencies": {
     "gatsby": "^3.14.2",
@@ -18,5 +19,8 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "sass": "^1.43.2"
+  },
+  "devDependencies": {
+    "gatsby-plugin-s3": "^0.3.8"
   }
 }
